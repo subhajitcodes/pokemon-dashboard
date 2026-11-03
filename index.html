@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Show</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="outer-background">
+      <main class="dashboard">
+        <header class="header">
+          <img src="./images/menu.svg" alt="menu" class="menu" />
+          <img
+            src="./images/Pokemon-logo.png"
+            alt="logo"
+            class="pokemon-logo"
+          />
+          <img src="./images/sun.svg" alt="sun" class="sun" />
+        </header>
+        <section class="toolbar">
+          <div class="search-box">
+            <img
+              src="./images/search.svg"
+              alt="searchIcon"
+              class="search-icon"
+            />
+            <input type="text" placeholder="Search for a Pokémon..." />
+          </div>
+          <div class="right-section">
+            <button class="toolbar-btn">
+              <span>Filter by types(1)</span>
+              <img src="./images/chevron-down.svg" alt="" class="chevron" />
+            </button>
+            <button class="toolbar-btn">
+              <img src="./images/list-filter.svg" alt="" class="chevron" />
+            </button>
+          </div>
+        </section>
+        <section class="pokemon-grid">
+          <article class="pokemon-card grass">
+            <div class="card-top">
+              <div class="pokemon-info">
+                <span class="pokemon-number">#0908</span>
+
+                <div class="type-icon">
+                  <img src="./images/grass.svg" alt="Grass" />
+                </div>
+              </div>
+              <button class="favorite-btn">
+                <img src="./images/heart.svg" alt="Favorite" />
+              </button>
+            </div>
+            <div class="pokemon-art">
+              <img src="./images/908.svg" alt="Meowscarada" />
+            </div>
+            <div class="card-bottom">
+              <h2>Meowscarada</h2>
+              <div class="card-actions">
+                <span class="type-pill">
+                  <img src="./images/grass.svg" alt="" />
+                  GRASS
+                </span>
+
+                <button class="details-btn">
+                  <img src="./images/arrow-right.svg" alt="Details" />
+                </button>
+              </div>
+            </div>
+          </article>
+          <article class="pokemon-card steel">
+            <div class="card-top">
+              <div class="pokemon-info">
+                <span class="pokemon-number">#0624</span>
+
+                <div class="type-icon">
+                  <img src="./images/steel.svg" alt="Steel" />
+                </div>
+              </div>
+
+              <button class="favorite-btn">
+                <img src="./images/heart.svg" alt="Favorite" />
+              </button>
+            </div>
+
+            <div class="pokemon-art">
+              <img src="./images/624.svg" alt="Pawniard" />
+            </div>
+
+            <div class="card-bottom">
+              <h2>Pawniard</h2>
+
+              <div class="card-actions">
+                <span class="type-pill">
+                  <img src="./images/steel.svg" alt="" />
+                  DARK / STEEL
+                </span>
+
+                <button class="details-btn">
+                  <img src="./images/arrow-right.svg" alt="Details" />
+                </button>
+              </div>
+            </div>
+          </article>
+          <article class="pokemon-card fire">
+            <div class="card-top">
+              <div class="pokemon-info">
+                <span class="pokemon-number">#0229</span>
+
+                <div class="type-icon">
+                  <img src="./images/fire.svg" alt="Fire" />
+                </div>
+              </div>
+
+              <button class="favorite-btn">
+                <img src="./images/heart.svg" alt="Favorite" />
+              </button>
+            </div>
+
+            <div class="pokemon-art">
+              <img src="./images/229.svg" alt="Houndoom" />
+            </div>
+
+            <div class="card-bottom">
+              <h2>Houndoom</h2>
+
+              <div class="card-actions">
+                <span class="type-pill">
+                  <img src="./images/fire.svg" alt="" />
+                  DARK / FIRE
+                </span>
+
+                <button class="details-btn">
+                  <img src="./images/arrow-right.svg" alt="Details" />
+                </button>
+              </div>
+            </div>
+          </article>
+          <article class="pokemon-card water">
+            <div class="card-top">
+              <div class="pokemon-info">
+                <span class="pokemon-number">#0686</span>
+
+                <div class="type-icon">
+                  <img src="./images/water.svg" alt="Water" />
+                </div>
+              </div>
+
+              <button class="favorite-btn">
+                <img src="./images/heart.svg" alt="Favorite" />
+              </button>
+            </div>
+
+            <div class="pokemon-art">
+              <img src="./images/686.svg" alt="Inkay" />
+            </div>
+
+            <div class="card-bottom">
+              <h2>Inkay</h2>
+
+              <div class="card-actions">
+                <span class="type-pill">
+                  <img src="./images/psychic.svg" alt="" />
+                  DARK / PSYCHIC
+                </span>
+
+                <button class="details-btn">
+                  <img src="./images/arrow-right.svg" alt="Details" />
+                </button>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section class="feature-strip">
+          <div class="feature-item">
+            <div class="feature-icon explore-icon">
+              <img src="./images/pokeball.svg" alt="" />
+            </div>
+            <div class="feature-text">
+              <h3>Explore</h3>
+              <p>Discover all your<br />favorite Pokémon</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon filter-icon">
+              <img src="./images/grass.svg" alt="" />
+            </div>
+            <div class="feature-text">
+              <h3>Filter</h3>
+              <p>Find Pokémon by<br />types and abilities</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon collection-icon">
+              <img src="./images/star.svg" alt="" />
+            </div>
+            <div class="feature-text">
+              <h3>Collection</h3>
+              <p>Save and manage<br />your collection</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon stats-icon">
+              <img src="./images/stats.svg" alt="" />
+            </div>
+            <div class="feature-text">
+              <h3>Stats</h3>
+              <p>View stats and learn<br />about Pokémon</p>
+            </div>
+          </div>
+        </section>
+        <footer class="footer">
+  <img class="footer-flower" src="./images/violet-flower.png" alt="" />
+
+  <div class="footer-logo">
+    <img src="./images/pokeballFooter.svg" alt="Poké Ball" />
+  </div>
+
+  <p>© 2024 Pokémon. All rights reserved.</p>
+</footer>
+      </main>
+    </div>
+  </body>
+</html>
